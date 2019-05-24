@@ -1,0 +1,232 @@
+.body{
+	 background-color: #f8f8f8 !important; 
+	/* font-family: 'Montserrat', 'sans-serif'; */
+ }
+
+/* HEADER STYLE */
+.header{
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+	top: 0;
+	z-index: 1 !important;
+	/* height: 100px; */
+ }
+
+.navbar-brand{
+    height: 100px;
+}
+
+.navbar-toggle{
+    margin-top: 30px;
+}
+
+ /* CONTENT-FLUID */
+ .bg{
+	background-image: url("image/image8.jpg");
+	background-attachment: fixed; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	/*You must Set a specific height */
+	height: 600px; 
+
+}
+
+.test{
+	background-image: url("image/image0.jpg");
+	background-attachment: fixed; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1 !important;
+	/*You must Set a specific height */
+	height: 600px; 
+	
+}
+
+.intro-div{
+	padding-top: 200px;
+	padding-bottom: 200px;
+	
+}
+
+
+.intro-main{
+	font-size: 60px;
+	}
+
+.intro{
+	color : white;
+	font-weight: bolder;
+	text-align: center;	
+}
+.intro2{
+	 line-height: 1.5em;
+ }
+
+.small-device{
+	display : none;
+}
+
+.sub-header{
+    font-size: 35px;
+    font-weight: bolder;
+	text-align: center;
+	padding: 20px;
+}
+
+.menu{
+	font-weight: bolder;
+	padding-top: 20px;
+}
+
+.menu-element{
+	color: rgb(51, 122, 183) !important;
+}
+
+.caption{
+	font-weight: bolder;
+}
+
+
+#service{
+	padding-top: 80px;
+	padding-bottom: 30px;
+
+}
+.service-border{
+	border-left : thin solid rgb(51, 122, 183);
+	height: 250px;
+}
+
+.service-border:hover {
+	background-color: rgb(51, 122, 183);
+	color: #FFF;
+}
+
+#about{
+	/* background: #404040; */
+	/* color: gainsboro; */
+	padding-bottom: 40px;
+	padding-top: 100px;
+	background-color:rgb(51, 122, 183);
+	color: white;
+}
+
+.service-group{
+	text-align: center;
+}
+
+.mantra{
+	font-size: 50px;
+	/* color : white; */
+	text-align: right;	
+}
+
+.detail{
+	text-align: left;
+	line-height: 1.2em;
+	font-size: 1.1em;
+}
+
+.about-icon{
+	padding-top: 40px;
+	font-size: 40px;
+}
+
+.glyphicon-ok{
+	color: rgb(24, 212, 24);
+}
+
+
+ /* FOOTER STYLE */
+
+
+.signup-footer, .footer{
+	color: #FFF;
+	background-color: #404040;
+	line-height: 3;	
+	z-index: 0;
+}
+
+
+.form-style{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.comm-links{
+
+	font-size: 30px;
+	padding: 10px;
+	color:white;
+}
+/* SIGNUP PAGE */
+
+.signup-footer{
+	margin-top: 20px;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+.info{
+	margin-top : 20px;
+}
+
+.quick-links{
+	margin-top : 20px;
+
+}
+
+.social-handle{
+	margin-top : 10px;
+	text-align: right;
+}
+
+.footer-link{
+	text-align: left;
+	color : white;
+}
+
+.signup-contact{
+	border-right: solid thin white;
+}
+
+/* END */
+
+.rights{
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.error{
+    color: red;
+}
+
+/* signup div */
+.input-index{
+	z-index: 0;
+	margin: 10px;
+	line-height: 1.7;
+}
+
+#signup{
+	margin: 5px;
+}
+
+.heading{
+	color:#FFF;
+	padding: 20px;
+}
+
+.panel-title{
+	font-size:20;
+	font-weight: bold;
+}
+ul li.active a{
+	background-color: rgb(51, 122, 183) !important;
+	color: #FFF !important;
+}
+
+

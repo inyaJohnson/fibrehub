@@ -1,0 +1,67 @@
+/* CSS FOR SMALL DEVICES */
+
+@media screen and (max-width : 991px){
+	.intro-main{
+		font-size: 40px;
+		}
+	
+	.bg{
+		height: auto; 
+		width: 100%;
+		}
+		
+	.test{
+		height: auto; 
+		width: 100%;
+		
+	}
+	.intro-div{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		
+	}
+	.intro2{
+		display: none;
+	}
+	.small-device{
+		display : block;
+	}
+
+	#service{
+		padding-top: 40px;
+		padding-bottom: 30px;
+
+	}
+	.service-border{
+		border-left :none;	
+		height: auto;
+	}
+
+	.service-border:hover {
+		background-color: #f8f8f8; 
+		color: #000;
+	}
+
+	.service-group{
+		text-align: center;
+	}
+
+	.detail{
+		text-align: justify;
+		line-height: 1.2em;
+		font-size: 1.1em;
+	}
+
+	.why-fibrehub, #about-summary, .mantra{
+		display: none;
+	}
+
+	.social-handle{
+		margin-top : 10px;
+		text-align: left;
+	}
+
+	.signup-contact{
+		border-right: none;
+	}
+}
